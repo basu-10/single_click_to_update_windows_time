@@ -14,8 +14,8 @@ exit /B
 
 :run
 :: Set the time zone (replace "India Standard Time" with your desired time zone)
-set TimeZoneName="Indian Standard Time"
-tzutil /s %TimeZoneName%
+set TimeZoneName=India Standard Time
+tzutil /s "%TimeZoneName%"
 echo Setting time zone to %TimeZoneName%.
 echo (You can list available time zones by running tzutil /l)
 
